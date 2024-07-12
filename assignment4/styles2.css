@@ -1,0 +1,117 @@
+body{
+   margin: 0vh;
+   background-color: rgb(227, 240, 207);
+}
+#header01{
+   display: flex;
+   justify-content: space-between;
+   margin:0px;
+   background-color: rgb(221, 248, 206);
+ 
+    
+    
+}
+#div02{
+   font-family: "Playwrite AU VIC", cursive;
+   color: darkgreen;
+   text-align: center;
+   margin-left:-140px;
+   margin-top: 3px;
+   font-size: 20px;
+} 
+#div01{
+   display: flex;
+   font-family: "Quicksand", sans-serif;
+   margin: 30px;
+   gap:20px;
+   
+}  
+#div03{
+   display: flex;
+   font-family: "Quicksand", sans-serif;
+   margin: 30px;
+   gap:20px;
+}  
+#div01 a, #div03 a{
+   text-decoration: none;
+}
+#div01 h3:hover, #div03 h3:hover{
+   text-decoration: underline;
+   color: rgb(0, 0, 0);
+   transition: .5s;
+}
+#heading01,#heading02{
+   font-family: "Quicksand", sans-serif;
+   color: rgb(255, 255, 255);
+   position:absolute; 
+}
+#heading01{
+   margin-top: 20vh;
+   margin-left: 20px;
+   font-size: 8vh;
+    
+ 
+}
+#heading02{
+   margin-top: 50vh;
+   margin-left: 20px;
+   font-size: 3vh;
+}
+#heading03{
+   margin-left: 2000px;
+   font-size:6vh;
+   color: white;
+   font-family: "Quicksand", sans-serif;
+   margin-top:10vh;
+
+}
+#heading04{
+   margin-left:2000px;
+   margin-top:18vh;
+   color:white;
+
+}
+#heading05{
+   margin-left:2000px;
+   color: white;
+   font-family: "Quicksand", sans-serif;
+   font-size:6vh;
+   margin-top:30vh; 
+}
+#heading06{
+   margin-left:2000px;
+   margin-top:38vh;
+   color:white;
+}
+#heading07{
+   font-family: "Quicksand", sans-serif;
+   color: rgb(255, 255, 255);
+   margin-left:3800px;
+   margin-top:45vh;
+   font-size: 8vh;
+
+}
+ 
+.slider {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 15s infinite;
+}
+.slides img {
+    width: 100vw;
+    height: 80vh; /* Adjusted height to create a rectangular shape */
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+}
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(-100vw); }
+    66% { transform: translateX(-200vw); }
+    100% { transform: translateX(0); }
+}
+
